@@ -1,13 +1,14 @@
 #pragma once
-#include<string>
+#include <string>
 using namespace std;
 
 class melodie {
+public:
 	int id;
 	string titlu, artist;
 	int rank;
-public:
-	melodie(){}
+
+	melodie() {};
 
 	melodie(int id1, string titlu1,string artist1,int rank1)
 	{
